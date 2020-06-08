@@ -1,0 +1,35 @@
+@font-face {
+
+	font-family:raleway;
+	src:url('../Fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+
+	font-family:raleway-bold;
+	src:url('../Fonts/Raleway-ExtraBold.ttf');
+}
+
+
+
+/*-----------------------------------*/
+
+.text-content {
+
+	color:#000; 
+	font-family:raleway;
+	text-align:center;
+	width:50%;
+}
+
+.title-content {
+
+	color:#0586EA; 
+
+}
+
+.text-content h1 span {
+
+ font-family:raleway-bold;
+ 
+}

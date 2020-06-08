@@ -1,0 +1,18 @@
+
+
+
+.icon-certificate {
+
+filter:grayscale(100%);
+width:20%;
+transition:1s ease-out;
+
+}
+
+.icon-certificate:hover {
+
+	filter:grayscale(0%);
+	transition:1s ease-out;
+}
+
+

@@ -1,0 +1,48 @@
+
+@font-face {
+
+ font-family:raleway;
+ src:url('../Fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+
+ font-family:raleway-bold;
+ src:url('../Fonts/Raleway-ExtraBold.ttf');
+}
+
+
+/*---------------------------------*/
+
+.description-point {
+
+	width:20%;
+    background:transparent;
+    font-family:raleway;
+    padding-left:10%;
+}
+
+.icon-description {
+
+	width:30%;
+}
+
+.title-about {
+
+	font-weight:bold;
+	font-size:18px;
+}
+
+.description-abour {
+
+
+}
+
+
+
+.readmore-about {
+
+	color:#09B4F9;
+	font-family:raleway-bold;
+	font-size:16px;
+}

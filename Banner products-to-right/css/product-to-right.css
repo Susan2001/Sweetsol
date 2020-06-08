@@ -1,0 +1,140 @@
+@font-face {
+
+	font-family:raleway;
+	src:url('../Fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+
+	font-family:raleway-bold;
+	src:url('../Fonts/Raleway-ExtraBold.ttf');
+}
+
+
+/*------------------------------------*/
+
+body {
+
+  margin:0px;
+}
+
+.product-banner {
+
+	width:100%;
+}
+
+.product-content {
+
+	width:90%;
+	height:400px;
+	background-color:#F6F6F6 ;
+}
+
+
+.content-description {
+
+    width:20%;
+	padding-right:40%;
+	padding-left:40%;
+	padding-top:2%;
+	height:200px;
+	position:relative;
+	left:5%;
+	background:transparent;
+	font-family:raleway;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.content-description h1 {
+
+    color:#03A2E3;
+	font-size:38px;
+}
+
+.product-title span {
+
+
+	font-family:raleway-bold;
+}
+
+.content-description {
+
+	text-align:right;
+}
+
+.readmore-product {
+
+	position:relative;
+	top:-50px;
+
+}
+
+.readmore-product:hover {
+
+	background:#0586EA;
+	border-color:#0586EA;
+	transition:1s ease-out;
+}
+
+
+.readmore-product:hover > a {
+
+		color:#fff;
+		
+}
+.readmore-product a {
+
+	text-decoration:none;
+	color:#000;
+}
+
+.readmore-product span {
+
+	position:relative;
+	left:75%;
+	
+}
+
+
+
+.packing-image {
+
+	
+	position:relative;
+	top:300px;
+	left:2%;
+}
+
+
+.candy-image {
+
+	text-align:right;
+}
+
+.candy-image img {
+
+    
+	width:30%;
+	position:relative;
+	top:-350px;
+}
+
+.readmore-product {
+
+    position:relative;
+    top:10px;
+	background:transparent;
+	border:2px solid #000;
+	border-radius:30px;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-right:20%;
+	padding-left:5%;
+}
+
+.readmore-product img{
+
+ position:relative;
+ 
+}
