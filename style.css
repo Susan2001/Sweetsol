@@ -1,0 +1,106 @@
+
+html {
+	overflow-x:hidden;
+	overflow-y:visible;
+}
+
+
+
+
+.principal-banner {
+
+	position:relative;
+	top: -30px;
+}
+
+.text-content {
+
+	text-align:center;
+}
+
+.description-point ul {
+
+	position:relative;
+	left:7%;
+}
+
+.description-point ul li {
+
+	list-style:none;
+	display:inline-block;
+	padding-right:5%;
+}
+
+.aboutus-section {
+
+	width:100%;
+	padding-top:5%;
+	padding-bottom:5%;
+	position:relative;
+	top:-30px;
+	background:#F5F5F5;
+
+}
+
+.product-banner {
+
+	position:relative;
+	top:-300px;
+}
+
+
+.product-banner-right {
+
+	position:relative;
+	top:-700px;
+}
+
+.brands {
+
+	position:relative;
+	top:-900px;
+}
+
+.news {
+
+	width:144%;
+}
+
+.news ul li {
+
+	list-style:none;
+	display:inline-block;
+	position:relative;
+	left:-8%;
+}
+
+.log-certificates {
+
+	width:100%;
+}
+
+.log-certificates ul li {
+
+ list-style:none;
+ display:inline-block;
+ position:relative;
+ left:13%;
+
+}
+
+
+@media screen and (max-width:800px ){
+
+	.readmore-banner button {
+
+		padding-top:1%;
+	}
+}
+
+
+
+
+
+
+
+

@@ -14,21 +14,23 @@
 
 /*-----------------------------------*/
 
-.text-content {
+.text-content-2 {
 
 	color:#000; 
 	font-family:raleway;
 	text-align:center;
-	width:50%;
+	width:100%;
+	padding-left:25%;
+	padding-right:25%;
 }
 
-.title-content {
+.title-content-2 {
 
 	color:#0586EA; 
 
 }
 
-.text-content h1{
+.text-content-2 h1{
 
  font-family:raleway-bold;
  

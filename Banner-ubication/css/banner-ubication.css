@@ -28,8 +28,11 @@ body {
 
 .banner-ubication {
 
-	width:100%;
-	height:600px;
+	width:168%;
+	margin:0px;
+	position:relative;
+	left:-35%;
+	height:800px;
 	background:#eee;
 
 	/*---- imagen fondo ------*/
@@ -40,10 +43,10 @@ body {
 
 .banner-content {
 
-	padding-top:5%;
+	padding-top:12%;
 	padding-left:60%;
-	padding-right:60%;
-	width:20%;
+	padding-right:12%;
+	width:100%;
 	font-family:raleway;
 	color:#fff;
 	font-size:18px;
@@ -58,10 +61,10 @@ body {
 
 .banner-ubication button {
 
-	padding-left:5%;
+	padding-left:3%;
 	padding-right:20%;
-	padding-top:5%;
-	padding-bottom:5%;
+	padding-top:3%;
+	padding-bottom:3%;
 	background: rgba(255, 255, 255, 0.3);
 	border:2px solid #fff;
 	border-radius:30px;
