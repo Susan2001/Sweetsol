@@ -1,0 +1,49 @@
+
+
+footer {
+
+	width: 290%;
+    position: relative;
+    left: -35%;
+
+	background:#eee;
+}
+
+
+
+.columns-footer > li {
+
+	list-style:none;
+	display:inline-block;
+	padding-right:5%;
+}
+
+.columns-footer li ul {
+
+	list-style:none;
+}
+
+.social-media ul li {
+
+	display:inline-block;
+}
+
+.social-media, .news, .quality {
+
+	position:relative;
+	top:-105px;
+}
+
+.Services-footer {
+
+	position:relative;
+	top:-30px;
+}
+
+.aboutus-footer {
+
+	position:relative;
+	top:-20px;
+}
+
+

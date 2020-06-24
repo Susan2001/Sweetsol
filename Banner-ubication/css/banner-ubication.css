@@ -33,11 +33,7 @@ body {
 	position:relative;
 	left:-35%;
 	height:800px;
-	background:#eee;
-
-	/*---- imagen fondo ------*/
-
-	/*background-image:url('');*/
+	background-image:url("../img/nasa.jpg");
 	
 }
 

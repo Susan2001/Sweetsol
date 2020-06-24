@@ -1,16 +1,12 @@
+body {
 
-html {
-	overflow-x:hidden;
-	overflow-y:visible;
+	margin:0px;
 }
-
-
-
 
 .principal-banner {
 
 	position:relative;
-	top: -30px;
+	    top: -95px;
 }
 
 .text-content {
@@ -21,14 +17,14 @@ html {
 .description-point ul {
 
 	position:relative;
-	left:7%;
+	left:10%;
 }
 
 .description-point ul li {
 
 	list-style:none;
 	display:inline-block;
-	padding-right:5%;
+
 }
 
 .aboutus-section {
@@ -45,28 +41,29 @@ html {
 .product-banner {
 
 	position:relative;
-	top:-300px;
+
 }
 
 
 .product-banner-right {
 
 	position:relative;
-	top:-700px;
+	
 }
 
 .brands {
 
 	position:relative;
-	top:-900px;
+
 }
 
-.news {
+.news-banner {
 
 	width:144%;
+
 }
 
-.news ul li {
+.news-banner ul li {
 
 	list-style:none;
 	display:inline-block;
@@ -86,6 +83,12 @@ html {
  position:relative;
  left:13%;
 
+}
+
+.ubication iframe {
+
+	width:100%;
+	height:600px;
 }
 
 

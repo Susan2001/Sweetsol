@@ -1,0 +1,74 @@
+@font-face {
+
+	font-family:raleway;
+	src:url('../Fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+
+	font-family:raleway-bold;
+	src:url('../Fonts/Raleway-ExtraBold.ttf');
+}
+
+
+/*------------------------------------*/
+
+body {
+
+  margin:0px;
+}
+
+.product-list-description {
+
+    position:relative;
+    top:300px;
+	width:30%;
+}
+
+.product-content-description {
+
+	width:90%;
+	height:400px;
+	position:relative;
+	z-index:1;
+	background-color:#F6F6F6 ;
+}
+
+
+.content-description-text {
+
+    width:70%;
+	padding-top:2%;
+	padding-right:8%;
+	padding-left:7%;
+	height:200px;
+	position:relative;
+	text-align:justify;
+	background:transparent;
+	font-family:raleway;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.content-description-text h1 {
+
+    color:#03A2E3;
+	font-size:38px;
+}
+
+.product-title-list span {
+
+
+	font-family:raleway-bold;
+}
+
+
+.product-image-list img {
+ 
+	width:80%;
+	position:relative;
+	z-index:2;
+	top:-550px;
+	left:80%;
+}
+

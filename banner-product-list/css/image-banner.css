@@ -1,0 +1,67 @@
+
+@font-face {
+
+	font-family:raleway;
+	src:url('../Fonts/Raleway-Light.ttf');
+
+}
+
+@font-face {
+
+	font-family:raleway-bold;
+	src:url('../Fonts/Raleway-ExtraBold.ttf');
+
+}
+
+/*----------------------------------*/
+
+.image-banner {
+
+	background-image:url('../img/descargar.png');
+	width:20%;
+	height:500px;
+}
+
+
+.image-banner:hover {
+
+	background:#ADDFEA;
+	transition:1s ease-out;
+}
+
+.text-content-banner {
+
+	padding-top:60%;
+	padding-left:5%;
+	padding-right:30%;
+	text-align:left;
+	font-family:raleway;
+	color:#fff;
+}
+
+.readmore-image-banner {
+
+    width:12%;
+    height: 44px;
+    -moz-border-radius: 90%;
+    -webkit-border-radius: 90%;
+    border-radius: 90%;
+	background:transparent;
+	border:2px solid #fff;
+	border-radius:130px;
+    position:relative;
+    left:70%;
+    top:-70px;
+
+
+
+}
+
+
+.readmore-image-banner a{
+
+	font-family:raleway-bold;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+}
