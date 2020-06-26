@@ -18,8 +18,10 @@
 .image-banner {
 
 	background-image:url('../img/descargar.png');
-	width:20%;
-	height:500px;
+	width:80%;
+	height:600px;
+	position: relative;
+    left: 10%;
 }
 
 
@@ -31,29 +33,28 @@
 
 .text-content-banner {
 
-	padding-top:60%;
+    background:rgba(255, 255, 255, 0.5);
+    padding-top:5%;
 	padding-left:5%;
 	padding-right:30%;
+	padding-bottom:8%;
 	text-align:left;
-	font-family:raleway;
-	color:#fff;
+	font-family:raleway-bold;
+	color:#000;
+	position:relative;
+	top:480px;
 }
 
 .readmore-image-banner {
 
-    width:12%;
-    height: 44px;
-    -moz-border-radius: 90%;
-    -webkit-border-radius: 90%;
-    border-radius: 90%;
-	background:transparent;
-	border:2px solid #fff;
-	border-radius:130px;
-    position:relative;
-    left:70%;
-    top:-70px;
-
-
+    padding-top:2%;
+	padding-right:15%;
+	padding-left:1%;
+	padding-bottom:2%;
+	background:rgba(255, 255, 255, 0.2);
+	border:2px solid #000;
+	border-radius:30px;
+	color:#000;
 
 }
 
@@ -61,7 +62,9 @@
 .readmore-image-banner a{
 
 	font-family:raleway-bold;
-	color:#fff;
+	color:#000;
 	text-decoration:none;
-	font-size:18px;
+	font-size:12px;
+	position:relative;
+	left:10%;
 }

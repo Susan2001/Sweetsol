@@ -1,0 +1,20 @@
+
+.message {
+    width: 32%;
+    height: 100px;
+    position: relative;
+    left: 40%;
+
+  }
+
+  .name, .email {
+    width: 26%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 11%;
+}
