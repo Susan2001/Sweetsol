@@ -25,6 +25,938 @@ body {
 
 }
 
+.banner-icon-company {
+
+	
+	width:40%;
+	height:300px;
+	position:relative;
+	left:30%;
+	top:200px;
+	z-index:0;
+}
+
+.readmore-banner {
+
+	position:relative;
+	left:43%;
+	top:250px;
+	z-index:1;
+}
+
+.readmore-banner button {
+
+	padding-top:1%;
+	padding-right:5%;
+	padding-left:1%;
+	padding-bottom:1%;
+	background:rgba(255, 255, 255, 0.2);
+	border:2px solid #fff;
+	border-radius:30px;
+}
+
+.readmore-banner button:hover {
+
+	background:#0586EA;
+	border-color:#0586EA;
+	transition:1s ease-out;
+}
+
+.readmore-banner button a {
+
+	font-size:18px;
+	font-family:raleway;
+	font-weight:bold;
+	text-decoration:none;
+	color:#fff;
+}
+
+.readmore-banner button a span {
+
+	position:relative;
+	left:40%;
+}
+
+
+.principal-banner {
+
+
+background-image:url("../img/valentine.jpg");
+
+	width:100%;
+	height:950px;
+	position:relative;
+	z-index:0;
+
+}
+
+.navigation {
+
+	position:relative;
+	left:95%;
+	top:50px;
+	z-index:2;
+}
+
+.navigation li {
+
+	list-style:none;
+	padding-top:1%;
+}
+
+.navigator {
+
+	 width:1%;
+     height: 20px;
+     -moz-border-radius: 90%;
+     -webkit-border-radius: 90%;
+     border-radius: 90%;
+     background:#fff;
+     border:none;
+}
+
+.navigator:hover {
+
+    border:2px solid #fff;
+	background:transparent;
+	
+
+	}
+
+.product-banner {
+
+	width:100%;
+	position:relative;
+
+}
+
+.product-content {
+
+	width:100%;
+	height:400px;
+	margin-left:5%;
+	background-color:#F6F6F6 ;
+}
+
+
+.content-description {
+
+    width:80%;
+	padding-right:30%;
+	padding-left:30%;
+	padding-top:2%;
+	height:200px;
+	position:relative;
+	left:5%;
+	background:transparent;
+	font-family:raleway;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.content-description h1 {
+
+    color:#03A2E3;
+	font-size:38px;
+}
+
+.product-title span {
+
+
+	font-family:raleway-bold;
+}
+
+.description-product{
+
+	text-align:left;
+}
+
+.readmore-product {
+
+	position:relative;
+	top:-50px;
+
+}
+
+.readmore-product:hover {
+
+	background:#0586EA;
+	border-color:#0586EA;
+	transition:1s ease-out;
+}
+
+
+.readmore-product:hover > a {
+
+		color:#fff;
+		
+}
+
+.readmore-product:hover > a > span {
+
+		color:#fff;
+		
+}
+
+
+.readmore-product a {
+
+	text-decoration:none;
+	color:#000;
+}
+
+.readmore-product span {
+
+	position:relative;
+	left:60%;
+	
+}
+
+
+
+.packing-image {
+
+	text-align:right;
+	position:relative;
+	top:300px;
+	left:-5%;
+}
+
+.candy-image img {
+
+	width:30%;
+	position:relative;
+	top:-350px;
+}
+
+.readmore-product {
+
+    position:relative;
+    top:10px;
+	background:transparent;
+	border:2px solid #000;
+	border-radius:30px;
+	padding-top:3%;
+	padding-bottom:3%;
+	padding-right:20%;
+	padding-left:3%;
+}
+
+.readmore-product img{
+
+ position:relative;
+ 
+}
+
+.product-banner-right {
+
+	width:100%;
+}
+
+.product-content-right {
+
+	width:90%;
+	height:400px;
+	background-color:#F6F6F6 ;
+}
+
+
+.content-description-right {
+
+    width:100%;
+	padding-right:40%;
+	padding-left:40%;
+	padding-top:2%;
+	height:200px;
+	position:relative;
+	left:5%;
+	background:transparent;
+	font-family:raleway;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.content-description-right h1 {
+
+    color:#03A2E3;
+	font-size:38px;
+}
+
+.product-title-right span {
+
+
+	font-family:raleway-bold;
+}
+
+.content-description-right {
+
+	text-align:right;
+}
+
+.readmore-product-right {
+
+	position:relative;
+	top:-50px;
+
+}
+
+.readmore-product-right:hover {
+
+	background:#0586EA;
+	border-color:#0586EA;
+	transition:1s ease-out;
+}
+
+
+.readmore-product-right:hover > a {
+
+		color:#fff;
+		
+}
+.readmore-product-right a {
+
+	text-decoration:none;
+	color:#000;
+}
+
+.readmore-product-right span {
+
+	position:relative;
+	left:60%;
+	
+}
+
+
+
+.packing-image-right {
+
+	
+	position:relative;
+	top:300px;
+	left:2%;
+}
+
+
+.candy-image-right {
+
+	text-align:right;
+}
+
+.candy-image-right img {
+
+    
+	width:30%;
+	position:relative;
+	top:-350px;
+}
+
+.readmore-product-right {
+
+    position:relative;
+    top:10px;
+	background:transparent;
+	border:2px solid #000;
+	border-radius:30px;
+	padding-top:3%;
+	padding-bottom:3%;
+	padding-right:20%;
+	padding-left:3%;
+}
+
+.readmore-product-right img{
+
+ position:relative;
+ 
+}
+
+.image-banner {
+
+	background-image:url('../img/descargar.png');
+	width:80%;
+	height:600px;
+	position: relative;
+    left: 10%;
+}
+
+
+.image-banner:hover {
+
+	background:#ADDFEA;
+	transition:1s ease-out;
+}
+
+.text-content-banner {
+
+    background:rgba(255, 255, 255, 0.5);
+    padding-top:5%;
+	padding-left:5%;
+	padding-right:30%;
+	padding-bottom:8%;
+	text-align:left;
+	font-family:raleway-bold;
+	color:#000;
+	position:relative;
+	top:480px;
+}
+
+.readmore-image-banner {
+
+    padding-top:2%;
+	padding-right:15%;
+	padding-left:1%;
+	padding-bottom:2%;
+	background:rgba(255, 255, 255, 0.2);
+	border:2px solid #000;
+	border-radius:30px;
+	color:#000;
+
+}
+
+
+.readmore-image-banner a{
+
+	font-family:raleway-bold;
+	color:#000;
+	text-decoration:none;
+	font-size:12px;
+	position:relative;
+	left:10%;
+}
+
+.banner-ubication {
+
+	width:168%;
+	margin:0px;
+	position:relative;
+	left:-35%;
+	height:800px;
+	background-image:url("../img/nasa.jpg");
+	
+}
+
+.banner-content {
+
+	padding-top:12%;
+	padding-left:60%;
+	padding-right:12%;
+	width:100%;
+	font-family:raleway;
+	color:#fff;
+	font-size:18px;
+
+}
+
+.banner-ubication h1 span  {
+
+	font-family:raleway-bold;
+}
+
+
+.banner-ubication button {
+
+	padding-left:3%;
+	padding-right:20%;
+	padding-top:3%;
+	padding-bottom:3%;
+	background: rgba(255, 255, 255, 0.3);
+	border:2px solid #fff;
+	border-radius:30px;
+}
+
+.banner-ubication button:hover {
+
+	background:#0586EA;
+	border-color:#0586EA;
+	transition:1s ease-out;
+}
+
+
+.banner-ubication button a {
+
+	font-family:raleway;
+	color:#fff;
+	font-size:18px;
+	text-decoration:none;
+}
+
+.banner-ubication button a span {
+
+	position:relative;
+	left:50%;
+}
+
+* {
+            box-sizing: border-box
+        }
+        html, body {
+            width: 100%;
+
+        }
+
+        .glider-contain {
+            width: 90%;
+            max-width: 997px;
+            margin: 0 auto;
+        }
+        .glider-slide {
+            min-height: 150px;
+        }
+        .glider-slide img {
+            width: 100%;
+        }
+
+
+.icon-certificate {
+
+filter:grayscale(100%);
+width:100%;
+transition:1s ease-out;
+
+}
+
+.icon-certificate:hover {
+
+	filter:grayscale(0%);
+	transition:1s ease-out;
+}
+
+.contact-form {
+
+	width:180%;
+	position:relative;
+	left:-35%;
+	background-image:url("../img/jelly.jpg");
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:20%;
+	padding-right:3%;
+	font-family:raleway;
+}
+
+.contact-title {
+
+	color:#fff;
+}
+
+
+
+.contact-form h1 span {
+
+	font-family:raleway-bold;
+}
+
+
+.name, .email {
+
+	width:30%;
+	margin-bottom:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-left:1%;
+	border:none;
+	border-radius:5px;
+
+}
+
+.message {
+
+	width:50%;
+	height:100px;
+	position:relative;
+	left:35%;
+	top:-180px;
+	margin-bottom:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-left:1%;
+	border:none;
+	border-radius:5px;
+}
+
+.submit {
+
+	width:10%;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-right:5%;
+	padding-left:1%;
+	position:relative;
+	top:-80px;
+	left:20%;
+	background:transparent;
+	border:2px solid #fff;
+	border-radius:15px;
+	color:#fff;
+}
+
+.submit:hover {
+
+ background:#fff;
+ color:#ADDFEA;
+ transition:1s ease-out;
+}
+
+.text-content {
+
+	color:#000; 
+	font-family:raleway;
+	text-align:center;
+	width:100%;
+	padding-left:25%;
+	padding-right:25%;
+}
+
+.title-content {
+
+	color:#0586EA; 
+
+}
+
+.text-content h1 span {
+
+ font-family:raleway-bold;
+ 
+}
+
+.text-content-2 {
+
+	color:#000; 
+	font-family:raleway;
+	text-align:center;
+	width:100%;
+	padding-left:25%;
+	padding-right:25%;
+}
+
+.title-content-2 {
+
+	color:#0586EA; 
+
+}
+
+.text-content-2 h1{
+
+ font-family:raleway-bold;
+ 
+}
+
+
+footer {
+
+	width: 290%;
+    position: relative;
+    left: -35%;
+
+	background:#eee;
+}
+
+
+
+.columns-footer > li {
+
+	list-style:none;
+	display:inline-block;
+	padding-right:5%;
+}
+
+.columns-footer li ul {
+
+	list-style:none;
+}
+
+.social-media ul li {
+
+	display:inline-block;
+}
+
+.social-media, .news, .quality {
+
+	position:relative;
+	top:-105px;
+}
+
+.Services-footer {
+
+	position:relative;
+	top:-30px;
+}
+
+.aboutus-footer {
+
+	position:relative;
+	top:-20px;
+}
+
+.description-point {
+
+	width:100%;
+    background:transparent;
+    font-family:raleway;
+    padding-left:10%;
+}
+
+.icon-description {
+
+	width:30%;
+}
+
+.title-about {
+
+	font-weight:bold;
+	font-size:18px;
+}
+
+.description-about {
+
+ padding-right:10%;
+
+}
+
+
+
+.readmore-about {
+
+	color:#09B4F9;
+	font-family:raleway-bold;
+	font-size:16px;
+}
+
+.image-banner {
+
+	background-image:url('../img/campo.jpg');
+	width:90%;
+	height:500px;
+}
+
+
+.image-banner:hover {
+
+	background:#0586EA;
+	transition:1s ease-out;
+}
+
+.text-content-banner {
+
+	padding-top:60%;
+	padding-left:5%;
+	padding-right:30%;
+	text-align:left;
+	font-family:raleway;
+	color:#fff;
+}
+
+.readmore-image-banner {
+
+    width:12%;
+    height: 44px;
+    -moz-border-radius: 90%;
+    -webkit-border-radius: 90%;
+    border-radius: 90%;
+	background:transparent;
+	border:2px solid #fff;
+	border-radius:130px;
+    position:relative;
+    left:70%;
+    top:-70px;
+
+
+
+}
+
+
+.readmore-image-banner a{
+
+	font-family:raleway-bold;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+}
+
+.nav-wrapper-menu {
+
+	display:none;
+}
+
+.icon-company {
+
+	position:relative;
+	left:-28%;
+	top:10px;
+}
+
+
+
+.nav-menu {
+
+	width:100%;
+	height:100px;
+	background:rgba(255, 255, 255, 0.9);
+	position:relative;
+	z-index:9999999999;
+
+}
+
+.nav-menu ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+	}
+	.nav-menu a {
+		display: block;
+		padding: 2em;
+		padding-bottom: 52px;
+		text-decoration: none;
+		color: #191C26;
+		font-family:raleway;
+		font-weight:bold;
+	}
+
+	.nav-menu a:hover {
+		background-color: #ADDFEA;
+		transition:1s ease-out;
+
+	}
+
+	.sub-menu > li {
+
+	  width:8%;
+	}
+
+	.sub-menu li ul > li a {
+
+	 width:100%;
+	 background:rgba(255, 255, 255, 0.9);
+
+	}
+
+
+
+	.nav-menu ul li ul {
+		display: none;
+	}
+	.nav-menu ul li a:hover + ul, .nav-menu ul li ul:hover {
+		display: block;
+	}
+
+.sub-menu {
+
+	position:relative;
+	left:30%;
+}
+
+
+
+/*-------------- menu wrapper ------------*/
+
+
+@media screen and (max-width:800px ){
+
+html {
+
+	overflow-x:hidden;
+}
+
+.wrapper-icon-company {
+
+	width:50%;
+	position:relative;
+	left:20%;
+}
+
+.wrapper-icon {
+
+	width:10%;
+	position:relative;
+	left:30%;
+	top:-10px;
+}
+
+.nav-menu {
+
+	display:none;
+
+}
+
+.nav-wrapper-menu {
+
+	display:block;
+	background:rgba(255, 255, 255, 0.9);
+
+}
+
+.sub-wrapper-menu {
+
+	display:none;
+}
+
+
+.nav-wrapper-menu {
+
+	width:100%;
+	height:100px;
+}
+
+.nav-wrapper-menu ul {
+
+	padding: 0;
+	margin: 0;
+	position:relative;
+	top:15px;
+	list-style:none;
+}
+
+
+.nav-wrapper-menu ul > li {
+
+	width:100%;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:10%;
+	background:rgba(255, 255, 255, 0.9);
+	border-bottom:1px solid #BEBFBF;
+
+}
+
+.nav-wrapper-menu ul li a {
+
+	font-family:raleway;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.nav-wrapper-menu ul li ul {
+
+	display:none;
+	position:relative;
+	top:-3px;
+
+}
+
+.nav-wrapper-menu ul li ul > li {
+
+	background:transparent;
+	border-bottom:none;
+}
+
+.nav-wrapper-menu ul li ul li a {
+
+	color:#ADDFEA;
+}
+
+.nav-wrapper-menu ul li a:focus + ul, .nav-wrapper-menu ul li ul:focus{
+
+	display:block;
+}
+
+
+
+}
+
+-
+
+
 .principal-banner {
 
 	position:relative;
@@ -290,7 +1222,200 @@ body {
 	left:15%;
 }
 
+/*------------------SERVICES----------*/
 
+.banner-services {
+
+	width:100%;
+	height:950px;
+	background-image:url("img/valentine.jpg");
+	font-family:raleway;
+	color:#0F95F1;
+
+
+}
+
+.banner-services h1 {
+
+	font-size:76px;
+}
+
+.banner-services span  {
+
+	font-family:raleway-bold;
+
+}
+
+.subtitle-banner {
+
+	padding-bottom:2%;
+}
+
+.subtitle-banner span {
+
+	font-family:raleway;
+}
+
+.icon-banner {
+    width: 8%;
+}
+
+
+.banner-services p {
+
+	font-size:35px;
+	font-family:raleway-bold;
+	position: relative;
+    left: 12%;
+    top: -51px;
+}
+
+.contact-us-button {
+
+	padding-top:2%;
+	padding-right:15%;
+	padding-left:2%;
+	padding-bottom:2%;
+	background:rgba(255, 255, 255, 0.2);
+	border:2px solid #000;
+	border-radius:30px;
+	color:#000;
+}
+
+.banner-info-services {
+
+	padding-left:5%;
+	padding-right:58%;
+	padding-top:10%;
+}
+
+.product-list-description {
+
+    
+	width:100%;
+}
+
+.product-content-description {
+
+	width:50%;
+	height:800px;
+	position:relative;
+	z-index:2;
+	top: 760px;
+    left: 35%;
+	background-color: rgba(232, 234, 236, 0.4);
+}
+
+
+.content-description-text {
+
+    width:70%;
+	padding-top:2%;
+	padding-right:8%;
+	padding-left:7%;
+	height:200px;
+	position:relative;
+	text-align:justify;
+	background:transparent;
+	font-family:raleway;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.content-description-text h1 {
+
+    color:#03A2E3;
+	font-size:50px;
+	position: relative;
+    left: 14%;
+    top:-30px;
+}
+
+.product-title-list span {
+
+
+	font-family:raleway-bold;
+}
+
+.product-image-list{
+
+ position:relative;
+	z-index:1;
+ 
+}
+.product-image-list img {
+ 
+	width:50%;
+	
+}
+
+.product-list-description-float {
+
+    
+	width:100%;
+}
+
+.product-content-description-float {
+
+	width:50%;
+	height:800px;
+	position:relative;
+	z-index:2;
+	top: 760px;
+    left: 25%;
+	background-color: rgba(232, 234, 236, 0.4);
+}
+
+
+.content-description-text-float {
+
+    width:70%;
+	padding-top:2%;
+	padding-right:8%;
+	padding-left:7%;
+	height:200px;
+	position:relative;
+	text-align:justify;
+	background:transparent;
+	font-family:raleway;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.content-description-text-float h1 {
+
+    color:#03A2E3;
+	font-size:50px;
+	position: relative;
+    left: 14%;
+    top:-30px;
+}
+
+.product-title-list-float span {
+
+
+	font-family:raleway-bold;
+}
+
+.product-image-list-float{
+
+ position:relative;
+	z-index:1;
+ 
+}
+.product-image-list-float img {
+ 
+	width:50%;
+	float:right;
+	
+}
+
+.icon-title-content {
+
+	width:12%;
+	position:relative;
+	top:25px;
+}
 
 @media screen and (max-width:800px ){
 
