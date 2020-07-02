@@ -134,7 +134,6 @@ background-image:url("../img/valentine.jpg");
 
 	width:100%;
 	height:400px;
-	margin-left:5%;
 	background-color:#F6F6F6 ;
 }
 
@@ -223,10 +222,16 @@ background-image:url("../img/valentine.jpg");
 }
 
 .candy-image img {
+    width: 100%;
+	height: 350px;
+    position: relative;
+    top: 50px;
+    left: -15%;
+}
 
-	width:30%;
-	position:relative;
-	top:-350px;
+.padding-right-positive{
+	width:  50%;
+
 }
 
 .readmore-product {
@@ -253,12 +258,50 @@ background-image:url("../img/valentine.jpg");
 	width:100%;
 }
 
-.product-content-right {
-
-	width:90%;
-	height:400px;
-	background-color:#F6F6F6 ;
+.product-content {
+    width: 93%;
+    height: 260px;
+    background-color: #F6F6F6;
+    float: right;
+    margin-top: 200px;
 }
+
+
+
+.product-content:nth-of-type(odd) > .product-image{
+	float: left;
+}
+
+.product-content:nth-of-type(odd) > .product-image > .candy-image{
+	position: relative;
+    left: -15%;
+}
+
+.product-content:nth-of-type(even) {
+	float: left;
+}
+
+.product-content:nth-of-type(even) > .product-image > .candy-image > img{
+	position: relative;
+    left: 15%;
+}
+
+.product-content:nth-of-type(even) > .product-text > .container > .padding-right-positive{
+	text-align:  right;
+}
+
+
+.product-content:nth-of-type(even) > .product-image{
+	float: right;
+}
+.product-content:nth-of-type(odd) > .product-text{
+	float: right;
+}
+.product-content:nth-of-type(even) > .product-text{
+	float: left;
+}
+
+
 
 
 .content-description-right {
@@ -1424,11 +1467,3 @@ html {
 		padding-top:1%;
 	}
 }
-
-
-
-
-
-
-
-
