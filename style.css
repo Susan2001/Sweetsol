@@ -580,12 +580,10 @@ transition:1s ease-out;
 
 .contact-form {
 
-	width:180%;
+	width:100%;
 	position:relative;
-	left:-35%;
-	background-image:url("../img/jelly.jpg");
+	background-image:url("img/jelly.jpg");
 	padding-top:5%;
-	padding-bottom:5%;
 	padding-left:20%;
 	padding-right:3%;
 	font-family:raleway;
@@ -594,6 +592,8 @@ transition:1s ease-out;
 .contact-title {
 
 	color:#fff;
+	position: relative;
+    left: -25%;
 }
 
 
@@ -606,45 +606,45 @@ transition:1s ease-out;
 
 .name, .email {
 
-	width:30%;
-	margin-bottom:2%;
-	padding-top:1%;
-	padding-bottom:1%;
-	padding-left:1%;
-	border:none;
-	border-radius:5px;
-
+	width: 88%;
+    margin-bottom: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: -25%;
 }
 
 .message {
 
-	width:50%;
-	height:100px;
-	position:relative;
-	left:35%;
-	top:-180px;
-	margin-bottom:2%;
-	padding-top:1%;
-	padding-bottom:1%;
-	padding-left:1%;
-	border:none;
-	border-radius:5px;
+	width: 100%;
+    padding-top: 2%;
+    padding-bottom: 12%;
+    padding-left: 2%;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 75%;
+    top: -162px;
+
 }
 
 .submit {
 
-	width:10%;
-	padding-top:1%;
-	padding-bottom:1%;
-	padding-right:5%;
-	padding-left:1%;
-	position:relative;
-	top:-80px;
-	left:20%;
-	background:transparent;
-	border:2px solid #fff;
-	border-radius:15px;
-	color:#fff;
+	width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 1%;
+    position: relative;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    left: 154%;
+    top: -111px;
 }
 
 .submit:hover {
@@ -758,10 +758,10 @@ footer {
 	width:30%;
 }
 
-.title-about {
+.tite-about {
 
-	font-weight:bold;
-	font-size:18px;
+	font-family:raleway-bold;
+
 }
 
 .description-about {
@@ -1012,7 +1012,15 @@ html {
 
 }
 
--
+.banner-info-news h1 {
+
+ font-family:raleway;
+}
+
+.banner-info-news {
+
+ font-family:raleway;
+}
 
 
 .principal-banner {
@@ -1033,7 +1041,6 @@ html {
 	padding-top:5%;
 	padding-bottom:5%;
 	background:#F5F5F5;
-	margin-top: 5%;
 
 }
 
@@ -1340,32 +1347,105 @@ html {
     max-width:8%;
 }
 
+.col-md-6.product-title-list {
+
+	font-size:43px;
+}
+
 .col-md-6.product-image-list img {
 
-	width:92%;
+	width:130%;
 
 }
 
 .product-list-description {
 
-	margin-top: 105px;
+	margin-top: 120px;
 }
 
-.col-md-6.product-content-description {
-
-	background: rgba(235, 236, 238, 0.4);
-    max-width: 50%;
-    height: 618px;
+.subtitle-list {
     position: relative;
-    top: -51px;
-    left: -23%;
+    left:8%;
+    padding-right: 41%;
+}
+
+.product-content-description {
+
+	background: rgba(235, 236, 238, 0.8);
+    max-width: 100%;
+    height: 936px;
+    position: relative;
+    top: -71px;
 }
 
 .content-description-text {
 
-	padding-top: 9%;
+	padding-top: 14%;
     padding-left: 8%;
-    padding-right: 15%;
+
+
+}
+
+
+/*----------- News --------*/
+
+.banner-news {
+
+	width:108%;
+	height:950px;
+	background-image:url("img/valentine.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:raleway;
+	color:#fff;
+
+
+}
+
+.banner-news h1 {
+
+	font-size:56px;
+	font-family:raleway-bold;
+}
+
+.banner-info-news {
+
+	padding-left: 10%;
+    padding-right: 51%;
+    padding-top: 29%;
+}
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
 }
 
 
